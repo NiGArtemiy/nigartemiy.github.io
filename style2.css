@@ -1,0 +1,261 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    color: red;
+    background: url(https://avatars.mds.yandex.net/i?id=4d2fb13ebea0c45470c975885c8cc8e8_l-5652653-images-thumbs&n=13);
+
+}
+
+.button_left_0{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-left: auto;
+
+
+}
+.button_left_0:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_left_0:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.button_left_1{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-left: auto;
+
+
+}
+.button_left_1:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_left_1:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.button_left_2{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-left: auto;
+
+
+}
+.button_left_2:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_left_2:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.button_right_0{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-right: 100%;
+
+}
+.button_right_0:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_right_0:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.button_right_1{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-right: 100%;
+
+}
+.button_right_1:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_right_1:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.button_right_2{
+    border-radius: 7px;
+    padding: 1em;
+    background: rgb(22, 202, 22);
+    color: white;
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s;
+    position: ri;
+    width: 90%;
+    height: 45%;
+    margin-right: 100%;
+
+}
+.button_right_2:hover {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+}
+
+.button_right_2:active {
+    transition: box-shadow .2s linear, transform .2s linear;
+    box-shadow: none;
+    transform: none;
+}
+
+.name {
+    position: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: #833ae0;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin:auto;
+}
+
+.image {grid-area: g;}
+.x0 {grid-area: a0;}
+.y1 {grid-area: a1;}
+.z2 {grid-area: a2;}
+
+.item {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: #88dbf2;
+    margin:auto;
+    grid-template-areas:"g g g" "g g g" "a0 a1 a2";
+    
+}
+
+.x{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.y{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+.y{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+}
+.none{
+    position: fixed;
+    margin:auto;
+}
+
+    .cont { grid-area: c; }
+    .button_right_0 { grid-area: r0; }
+    .button_right_1 { grid-area: r1; }
+    .button_right_2 { grid-area: r2; }
+    .button_left_0 { grid-area: l0; }
+    .button_left_1 { grid-area: l1; }
+    .button_left_2 { grid-area: l2; }    
+.Big_cont{
+    display: grid;
+
+    grid-template-areas:"r0 c c l0" "r1 c c l1" "r2 c c l2";
+}
